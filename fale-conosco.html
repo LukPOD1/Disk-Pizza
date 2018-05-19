@@ -1,115 +1,122 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-	<head>
-		<title>Disk Pizza</title>
-		<meta charset="utf-8">
-		<link href="_css/style.css" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="_css/contato.css">
-		<script language="JavaScript" src="funcao/funcao.js"></script>
-	</head>
-	<body class="fundo">
-		<form>
-			<fieldset>
-				<legend>FALE CONOSCO</legend>
-				<p>Use os campos abaixo para realizar perguntas, comentários ou sugestões sobre nossos serviços. Será um prazer responder o seu contato!</p>
-				<hr>
-				<table width="100%" border="1">
-					<tr>
-						<td >
-							<input type="text" placeholder="Seu Nome Completo">
-						</td>
 
-						<td>
-							<input type="text" placeholder="CEP">
-						</td>
-					</tr>
+<head>
+	<title>Disk Pizza</title>
+	<meta charset="utf-8">
+	<link href="_css/style.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="_css/contato.css">
+	<script language="JavaScript" src="funcao/funcao.js"></script>
+</head>
 
-					<tr>
-						<td >
-							<input type="text" placeholder="E-Mail">
-						</td>
+<body class="fundo">
+	<form>
+		<fieldset>
+			<legend>FALE CONOSCO</legend>
+			<p>Use os campos abaixo para realizar perguntas, comentários ou sugestões sobre nossos serviços. Será um prazer responder
+				o seu contato!</p>
+			<hr>
+			<table width="100%" border="1">
+				<tr>
+					<td>
+						<input type="text" placeholder="Seu Nome Completo">
+					</td>
 
-						<td>
-							<input type="text" placeholder="Estado">
-						</td>
-					</tr>
+					<td>
+						<input type="text" placeholder="CEP">
+					</td>
+				</tr>
 
-					<tr>
-						<td>
-							<input type="text" placeholder="CPF">
-						</td>
+				<tr>
+					<td>
+						<input type="text" placeholder="E-Mail">
+					</td>
 
-						<td>
-							<input type="text" placeholder="Cidade">
-						</td>
-					</tr>
+					<td>
+						<input type="text" placeholder="Estado">
+					</td>
+				</tr>
 
-					<tr>
-						<td >
-							<input type="date" placeholder="Data de nascimento dd/mm/aaaa">
-						</td>
+				<tr>
+					<td>
+						<input type="text" placeholder="CPF">
+					</td>
 
-						<td>
-							<input type="text" placeholder="Bairro">
-						</td>
-					</tr>
+					<td>
+						<input type="text" placeholder="Cidade">
+					</td>
+				</tr>
 
-					<tr>
-						<td >
-							<select>
-								<option>Selecione um assunto...</option>
-								<option>Críticas</option>
-								<option>Delivery</option>
-								<option>Dúvidas</option>
-								<option>Elógios</option>
-								<option>Fornecedores</option>
-								<option>Sugestões</option>
-								<option>Vagas</option>
-							</select>
-						</td>
+				<tr>
+					<td>
+						<input type="date" placeholder="Data de nascimento dd/mm/aaaa">
+					</td>
 
-						<td>
-							<input type="number" placeholder="Nº">
-						</td>
-					</tr>
+					<td>
+						<input type="text" placeholder="Bairro">
+					</td>
+				</tr>
 
-					<tr>
-						<td>
-							<input type="text" placeholder="Telefone (99) 99999-9999">
-						</td>
+				<tr>
+					<td>
+						<select>
+							<option>Selecione um assunto...</option>
+							<option>Críticas</option>
+							<option>Delivery</option>
+							<option>Dúvidas</option>
+							<option>Elógios</option>
+							<option>Fornecedores</option>
+							<option>Sugestões</option>
+							<option>Vagas</option>
+						</select>
+					</td>
 
-						<td>
-							<input type="text" placeholder="Celular (99) 99999-9999">
-						</td>
-					</tr>
+					<td>
+						<input type="number" placeholder="Nº">
+					</td>
+				</tr>
 
-					<tr>
-						<td width="50%">
-							<a href="http://www.buscacep.correios.com.br/sistemas/buscacep/" target="iframe_cep">
-							<center>Buscar por CEP</center><br>
-							<iframe  width="600px" frameborder="0" name="iframe_cep">
-							 <center><p>Seu browser não suporta iframes.</p></center>
+				<tr>
+					<td>
+						<input type="text" placeholder="Telefone (99) 99999-9999">
+					</td>
+
+					<td>
+						<input type="text" placeholder="Celular (99) 99999-9999">
+					</td>
+				</tr>
+
+				<tr>
+					<td width="50%">
+						<a href="http://www.buscacep.correios.com.br/sistemas/buscacep/" target="iframe_cep">
+							<center>Buscar por CEP</center>
+							<br>
+							<iframe width="600px" frameborder="0" name="iframe_cep">
+								<center>
+									<p>Seu browser não suporta iframes.</p>
+								</center>
 							</iframe>
-							</a>
-										
-						</td>
+						</a>
 
-						<td>
-							<textarea rows="12" cols="58" placeholder="Sua Mensagem"></textarea>
-						</td>		
-					</tr>
+					</td>
 
-					<tr>
-						<td>
-							<button onclick="contato()">ENVIAR</button>
-						</td>
+					<td>
+						<textarea rows="12" cols="58" placeholder="Sua Mensagem"></textarea>
+					</td>
+				</tr>
 
-						<td>
-							<button onclick="imprimir()">IMPRIMIR</button>
-						</td>
-					</tr>
-				</table>
-			</fieldset>
-		</form>
-	</body>
+				<tr>
+					<td>
+						<button onclick="contato()">ENVIAR</button>
+					</td>
+
+					<td>
+						<button onclick="imprimir()">IMPRIMIR</button>
+					</td>
+				</tr>
+			</table>
+		</fieldset>
+	</form>
+</body>
+
 </html>

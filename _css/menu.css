@@ -1,0 +1,33 @@
+
+
+nav#menu {
+    display: block;
+}
+
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -10px;
+    left: 30%;
+}
+
+nav#menu li {
+    display: inline-block;
+    background-color: #dddddd;
+    transition: background-color 1s;
+    padding: 10px;
+    margin: 2px;
+    border: 1px solid green;
+    border-radius: 10px;
+}
+
+nav#menu li:hover {
+    background-color: red;
+}
+
+nav#menu a {
+    color: #000000;
+    text-decoration: none;
+    font: 20pt;
+}

@@ -1,0 +1,51 @@
+#tabelapedido {
+	width: 99%;
+}
+th {
+	color: white;
+	background-color: red;
+}
+
+#tabelaborda {
+	width: 100%;
+}
+
+#borda {
+	width: 150px;
+	position: relative;
+	left: 10%;
+}
+
+#buttonsave {
+	width: 100%;
+	background-color: red;
+}
+
+#buttonpedir {
+	width: 100%;
+	background-color: red;
+}
+
+fieldset, table, td, th, input, select {
+    border-radius: 15px;
+    border: 2px solid white;
+}
+
+#pagamento {
+	position: relative;
+	left: 20%;
+}
+
+#pizza {
+	width: 320px;
+	
+}
+
+p {
+	text-align: center;
+}
+
+legend, label  {
+	color: white;
+}
+

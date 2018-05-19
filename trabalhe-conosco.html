@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Disk Pizza</title>
+		<meta charset="utf-8">
+		<link href="_css/style.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="_css/carreira.css">
+		<script language="JavaScript" src="funcao/funcao.js"></script>
+	</head>
+	<body class="fundo">
+		<form onsubmit="validateForm()" name="trabalho">
+			<fieldset>
+				<legend>TRABALHE CONOSCO</legend>
+				<table width="50%" border="1">
+					<center><img src="img/contato.png" width="200px"></center>
+					<tr>
+						<td colspan="2">
+							<input type="text" name="nome" placeholder="Seu Nome">
+						</td>
+					</tr>
+
+					<tr>
+						<td colspan="2">
+							<input type="text" name="email" placeholder="Seu E-Mail">
+						</td>
+					</tr>
+
+					<tr>
+						<td colspan="2">
+							<input type="text" name="phone" placeholder="Seu Telefone">
+						</td>
+					</tr>
+
+					<tr>
+						<td colspan="2">
+							<p>Seu Currículo</p> <br>
+							<input type="file" name="curriculo">
+						</td>
+					</tr>
+
+					<tr>
+						<td colspan="2">
+							<textarea rows="8" cols="70" placeholder="Sua Mensagem"></textarea>
+						</td>
+					</tr>
+
+					<tr>
+						<td colspan="2">
+							<button onclick="enviar()">ENVIAR</button>
+						</td>
+					</tr>
+
+					
+				</table>
+				
+			</fieldset>
+		</form>
+
+	</body>
+</html>

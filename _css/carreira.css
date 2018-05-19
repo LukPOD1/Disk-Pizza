@@ -1,0 +1,33 @@
+form {
+    margin-left: 380px;
+    
+}
+
+fieldset {
+    margin-right: 500px;
+    border-radius: 15px;
+    border: 2px solid white;
+}
+
+legend {
+    text-align: center;
+}
+
+td, input, textarea, table, button, ::-webkit-file-upload-button {
+    border-radius: 15px;
+    border: 2px solid white; 
+}
+
+input {
+    width: 500px;
+}
+
+button {
+    background: red;
+    color: white;
+    width: 200px;
+}
+
+legend {
+    color: white;
+}

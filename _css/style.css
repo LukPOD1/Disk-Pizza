@@ -1,0 +1,60 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+body.fundo {
+    background-image: url("../img/logomadeira.png");
+}
+
+p {
+    text-indent: 50px;
+    color: white;
+}
+
+h3, h4, a, th {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    font-size: 15;
+}
+
+
+
+/*Formatação da HOME Page*/
+table#exemp {
+    width: 100%;
+}
+
+#img {
+    width: 300px;
+   
+}
+
+
+div#iframe {
+    position: relative;
+    left: 0;
+}
+
+table#extra {
+    width: 100%;
+    border-radius: 15px;
+    border: 2px solid white;
+}
+
+
+
+
+#parceiros {
+    text-align: center;
+}
+
+video {
+    position: relative;
+    left: 25%;
+}
+
+/*fim da formatação da HomePage*/

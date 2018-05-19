@@ -1,0 +1,13 @@
+
+#logo {
+    width: 145px;
+    position: absolute;
+    left: 300px;
+    top: 0;
+}
+
+header#cabecalho h1 {
+    text-align: center;
+    color: white;
+    font-size: 40pt;
+}

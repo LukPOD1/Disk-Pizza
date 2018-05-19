@@ -1,0 +1,24 @@
+fieldset, table, input, td, textarea, button, select {
+    border-radius: 15px;
+    border: 2px solid white;
+}
+
+input {
+    width: 500px;
+}
+
+legend{
+    color: white;
+}
+
+button {
+    background-color: red;
+    color: white;
+    width: 400px;
+    position: relative;
+    left: 20%;
+}
+
+select {
+    width: 300px;
+}

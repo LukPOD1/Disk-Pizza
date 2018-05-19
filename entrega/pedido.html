@@ -1,0 +1,136 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>Disk Pizza</title>
+		<link href="../_css/style.css" rel="stylesheet">
+		<link href="../_css/pedido.css" rel="stylesheet">
+		<script language="JavaScript" src="../funcao/funcao.js"></script>
+	</head>
+	<body class="fundo">
+		<form onsubmit="validatePedido()" name="pedido">
+		<fieldset>
+			<legend>FAÇA SEU PEDIDO</legend>
+			<table id="tabelapedido">
+				<tr>
+					<th >SABOR</th>
+					<th >TAMANHO</th>
+					<th >BORDA</th>
+					<th >FORMA DE PAGAMENTO</th>
+					<th>Endereço</th>
+				</tr>
+
+				<tr>
+					<td>
+						<select name="form">
+							<option>CALABRESA</option>
+							<option>FRANGO</option>
+							<option>PORTUGUESA</option>
+							<option>FRANGO COM CATUPIRY</option>
+							<option>QUATRO QUEIJOS</option>
+							<option>MUSSARELA</option>
+							<option>PEPPERONI</option>
+							<option>NAPOLITANA</option>
+						</select>
+					</td>
+					<td>
+						<input type="radio" id="M" name="form"><label for="M">Média(6 FATIAS)</label><br>
+						<input type="radio" id="G" name="form"><label for="G">GRANDE(8 FATIAS)</label> 
+					</td>
+					<td>
+						<table id="tabelaborda">
+							<tr>
+								<td><img src="../img/borda-catupiry.jpg" id="borda" name="form"><br><input type="radio" id="catu"><label>BORDA DE CATUPIRY</label></td>
+
+								<td><img src="../img/borda-cheddar.jpg" id="borda" name="form"><br><input type="radio" id="ched"><label>BORDA DE CHEDDAR</label></td>
+
+								<td><img src="../img/sem-recheio.png" id="borda" name="form"><br><input type="radio" id="sem"><label>SEM RECHEIO</label></td>
+							</tr>
+						</table>	
+					</td>
+					<td>
+						
+							<select name="form">
+								
+								<option>VISA</option>
+								<option>VISA ELECTRON</option>
+								<option>MAESTRO</option>
+								<option>MASTERCARD</option>
+								<option>ELO</option>
+								<option>ELO DEBITO</option>
+								<option>DINERS CLUB INTERNATIONAL</option>
+								<option>AMERICAN EXPRESS</option>
+								<option>ALELO</option>
+								<option>VR REFEIÇÃO</option>
+								<option>GREEN CARD</option>
+								<option>SODEXO REFEIÇÃO</option>
+							</select>
+							<br>
+							<input type="text" placeholder="9999.9999.9999.9999" name="form">
+						
+					</td>
+					<td>
+						CEP: <input type="text" name="form">
+						<br>
+						Nº: <input type="text" name="form">
+
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input class="button" type="submit" value="SALVAR" id="buttonsave" onclick="salvar()">
+					</td>
+					<td >
+						<input class="button" type="button" value="PEDIR" id="buttonpedir" onclick="pedir()">
+					</td>	
+				</tr>
+			</table>
+				<img src="../img/formas-de-pagamento.png" id="pagamento">
+			
+			<table id="tabelasabores">
+			<tr>
+				<td>
+					<img src="../img/pizza-de-calabresa.jpg" id="pizza">
+					<p>PIZZA DE CALABRESA</p>
+				</td>
+
+				<td>
+					<img src="../img/pizza-de-frango-com-catupiri.jpg" id="pizza">
+					<p>PIZZA DE FRANGO COM CATUPIRI</p>
+				</td>
+				<td>
+					<img src="../img/pizza-de-peperoni.jpg" id="pizza">
+					<p>PIZZA DE PEPERONI</p>
+				</td>
+				
+				<td >
+					<img src="../img/pizza-portuguesa.jpg" id="pizza">
+					<p>PIZZA PORTUGUESA</p>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<img src="../img/pizza-de-frango.jpg" id="pizza">
+					<p>PIZZA DE FRANGO</p>
+				</td>
+
+				<td>
+					<img src="../img/pizza-de-4-queijos.jpg" id="pizza">
+					<p>PIZZA DE 4 QUEIJOS</p>
+				</td>
+
+				<td>
+					<img src="../img/pizza-de-mussarela.jpg" id="pizza">
+					<p>PIZZA DE MUSSARELA</p>
+				</td>
+
+				<td>
+					<img src="../img/pizza-napolitana.jpg" id="pizza">
+					<p>PIZZA NAPOLITANA</p>	
+				</td>
+			</tr>
+		</table>
+		</fieldset>
+		</form>
+	</body>
+</html>
